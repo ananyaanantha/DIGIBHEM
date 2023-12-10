@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+h2 {
+    color: #2C3E50;
+    border-bottom: 2px solid #2C3E50;
+    padding-bottom: 10px;
+}
+
+.about-content {
+    display: flex;
+    align-items: center;
+}
+
+.about-content img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.projects ul {
+    list-style: none;
+    padding: 0;
+}
+
+.projects ul li {
+    margin-bottom: 10px;
+}
+
+.achievements ul {
+    list-style: none;
+    padding: 0;
+}
+
+.achievements ul li {
+    margin-bottom: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-top: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #34495E;
+}
+
+footer {
+    background-color: #2C3E50;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}

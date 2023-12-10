@@ -1,0 +1,58 @@
+/* Add this to the existing styles.css */
+
+.hero {
+    background-image: url('hero-background.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    text-decoration: none;
+    background-color: #ff6600;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e55d00;
+}
+
+.user-registration {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 80px 0;
+}
+
+.user-registration h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.user-registration p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.user-registration a {
+    color: #ff6600;
+    text-decoration: none;
+}
+
+.user-registration a:hover {
+    text-decoration: underline;
+}
